@@ -1,0 +1,29 @@
+:root {
+  --white: #fff;
+  --gray-400: #837E9F;
+  --gray-600: #302F3D;
+  --gray-800: #22212C;
+
+  --green-400: #00FF00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-800);
+  color: var(--gray-400);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-width: 400;
+  font-size: 1rem;
+}
